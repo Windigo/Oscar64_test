@@ -1,5 +1,7 @@
 # oscar64
 
+This is a temporary clone of the original Oscar64, this repository will be removed soon. For serious work, pleas go to the original Osacar64 repository at https://github.com/drmortalwombat/oscar64
+
 Oscar64 is a C/C++ cross compiler running on a modern system (such as a Windows PC, Mac or Linux machine) and targets the classic 6502 family of processors.  It is mainly focused on Commodore systems such as the C64, PET or VIC20.  The compiler supports C99 and many C++ features up to variadic templates and lambda functions.
 
 The purpose of this compiler is to eliminate the need to write 6502 assembler code to achieve high code density and fast execution speed.  It continues to improve with all the games, demos and tools written by it.  It supports disk overlays and banked cartridges for larger projects.
