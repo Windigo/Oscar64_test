@@ -71,3 +71,5 @@ set_target_properties(oscar64 PROPERTIES
 )
 
 install(TARGETS oscar64 RUNTIME DESTINATION bin)
+install(DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}/include/ DESTINATION include/oscar64)
+install(FILES ${CMAKE_CURRENT_SOURCE_DIR}/oscar64.1 DESTINATION share/man/man1)
