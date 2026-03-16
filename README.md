@@ -11,6 +11,23 @@ The C64 executes 442 dhrystone V2.2 iteration per second, when compiled with Osc
 [Full reference manual](oscar64.md)
 [Additional samples and tutorials](https://github.com/drmortalwombat/OscarTutorials)
 
+# Install Scripts
+
+The repository now includes platform-specific install scripts that build the compiler and install it in a layout that Oscar64 can use directly:
+
+* macOS: `./install_macos.sh`
+* Linux: `./install_linux.sh`
+* Windows: `install_windows.bat`
+
+By default the scripts install into a private prefix so the compiler can find its runtime headers relative to the executable:
+
+* macOS/Linux: `$HOME/.local/oscar64`
+* Windows: `%LOCALAPPDATA%\oscar64`
+
+You can override the install location with `PREFIX` before running the script.
+
+See [Installation guide](install_readme.md) for full setup, PATH, and troubleshooting details.
+
 # References
 
 This is a list of the games written with Oscar64, have a look if you are not convinced that fast paced action games can be written in C/C++ on a C64 (they are all free).
